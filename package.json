@@ -1,0 +1,23 @@
+{
+  "name": "tastycookery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xleitor/TastyCookery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xleitor/TastyCookery/issues"
+  },
+  "homepage": "https://github.com/xleitor/TastyCookery#readme",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "webpack": "^5.1.3"
+  }
+}
