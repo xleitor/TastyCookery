@@ -18,7 +18,8 @@ body {
         display: block;
         color: #ffffff; }
         .header-menu .container .menu-logo-description span:nth-child(1) {
-          font-size: 29px; }
+          font-size: 29px;
+          padding-bottom: 10px; }
         .header-menu .container .menu-logo-description span:nth-child(2) {
           font-size: 11px;
           text-transform: uppercase;
@@ -26,7 +27,8 @@ body {
           letter-spacing: 4.5px; }
     .header-menu .container .header-menu-block {
       padding-top: 87px;
-      color: #ffffff; }
+      color: #ffffff;
+      padding-bottom: 40px; }
       .header-menu .container .header-menu-block span {
         display: block; }
         .header-menu .container .header-menu-block span:nth-child(-n+2) {
@@ -35,5 +37,48 @@ body {
           text-transform: uppercase; }
         .header-menu .container .header-menu-block span:nth-child(3) {
           font-size: 24px; }
+    .header-menu .container .header-menu-link {
+      display: table;
+      padding: 26px 66px 26px 66px;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 800;
+      text-transform: uppercase;
+      width: 22.7%;
+      background: linear-gradient(to right, #1fbf7c, #bfdf2c);
+      border-radius: 10px;
+      justify-content: center; }
+
+main .container {
+  width: 83.33%;
+  margin: 0 auto; }
+  main .container .block-recipes {
+    padding-top: 63px;
+    display: flex;
+    justify-content: space-between; }
+    main .container .block-recipes .block-recipes-item {
+      text-align: center; }
+      main .container .block-recipes .block-recipes-item img {
+        padding-bottom: 30px; }
+      main .container .block-recipes .block-recipes-item span {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase; }
+      main .container .block-recipes .block-recipes-item .vector {
+        position: relative;
+        z-index: 3; }
+      main .container .block-recipes .block-recipes-item .ellipse {
+        position: relative;
+        left: -40px;
+        z-index: 1; }
+  main .container .block-with-us {
+    padding-top: 67px; }
+    main .container .block-with-us h1 {
+      padding-bottom: 60px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 40px;
+      font-weight: 800; }
 
 /*# sourceMappingURL=stylle.css.map */

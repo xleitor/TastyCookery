@@ -24,6 +24,7 @@ body{
         		color:#ffffff;
         		&:nth-child(1){
         			font-size: 29px;
+        			padding-bottom: 10px;
         		}
         		&:nth-child(2){
         			font-size: 11px;
@@ -36,6 +37,7 @@ body{
         .header-menu-block{
         	padding-top: 87px;
         	color: #ffffff;
+        	padding-bottom: 40px;
         	span{
         		display: block;
         		&:nth-child(-n+2){
@@ -48,6 +50,77 @@ body{
         		}
         	}
         }
-        
+        .header-menu-link{
+        	display: table;
+        	padding: 26px 66px 26px 66px;
+        	color:#ffffff;
+        	font-size: 20px;
+        	font-weight: 800;
+        	text-transform: uppercase;
+        	width:22.7%;
+        	background:linear-gradient(to right, #1fbf7c, #bfdf2c);
+        	border-radius: 10px;
+        	justify-content: center;
+        	
+        }
 	}
+}
+main{
+	.container{
+		width: 83.33%;
+        margin: 0 auto;
+        .block-recipes{
+        	padding-top: 63px;
+        	display: flex;
+        	justify-content: space-between;
+ 
+        	.block-recipes-item{
+        		text-align: center;
+        		img{
+        			padding-bottom: 30px;
+        		}
+        		
+        		span{
+        			display: block;
+        			text-align: center;
+        			font-size: 16px;
+        			text-transform: uppercase;
+
+
+        		}
+        		.vector{
+        			position: relative;
+        			z-index: 3;
+
+        		}
+        		.ellipse{
+        			position: relative;
+        			left:-40px;
+        			z-index: 1;
+        			
+        		}
+        	}
+
+
+        }
+        .block-with-us{
+        	padding-top: 67px;
+
+        	
+        	h1{
+        		padding-bottom: 60px;
+        		text-align: center;
+        		text-transform: uppercase;
+        		font-size: 40px;
+        		font-weight:800;
+        	}
+        	.with-us-item-recipes{
+
+            }
+
+        		
+        	
+        }
+	}
+
 }
