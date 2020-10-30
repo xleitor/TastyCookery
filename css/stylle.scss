@@ -182,12 +182,23 @@ main{
     		text-transform: uppercase;
     	}
     }
-    .user-talk{
-    	background-image: url('../images/png/rectangle.png');
-    	height: 140px;
-    	width:313px;
+    .block-review-user{
+        display:flex;
+        justify-content: space-between;
+        .user-talk{
+            background-image: url('../images/png/rectangle.png');
+            background-repeat: no-repeat;
+            height: 140px;
+            width:313px;
+            span{
+                display: block;
+                text-align:center;
+            }
 
+        }
     }
 
+
+    
 
 }
