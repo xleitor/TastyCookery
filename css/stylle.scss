@@ -185,16 +185,36 @@ main{
     .block-review-user{
         display:flex;
         justify-content: space-between;
-        .user-talk{
-            background-image: url('../images/png/rectangle.png');
-            background-repeat: no-repeat;
-            height: 140px;
-            width:313px;
+        align-items:center;
+        .review-user{
+            width:26%;
+             padding-bottom: 43px;
+             .user-talk{
+            width:320px;
+            border: 1px solid #dcdcdc; 
+            border-radius: 10px;
+            padding: 22px;
+           
             span{
                 display: block;
-                text-align:center;
+                text-align:left;
             }
         }
+        }
+        .user-bio{
+            padding-top:43px;
+
+              &:after{
+                content: url('../images/png/rectangle.png');
+                width:18px;
+                height:20px;
+                position: relative;
+                top: -44px;
+                left: -145px;
+            } 
+        }
+
+       
     }
 }
 footer{
