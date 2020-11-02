@@ -20,6 +20,7 @@ body{
 .header-menu{
 	background-image: url('../images/png/header_logo.png');
 	width: 100%;
+    max-width:1440px;
 	height: 595px;
 	.container{
 		width: 83.33%;
@@ -153,7 +154,6 @@ main{
         		color: #ffffff;
         		&:nth-child(2){
         			padding-top: 12px;
-
         		}
         	}	
         }
@@ -194,11 +194,25 @@ main{
                 display: block;
                 text-align:center;
             }
-
         }
     }
-
-
-    
-
+}
+footer{
+    background-image: url('../images/png/footer.png');
+    width: 100%;
+    max-width:1440px;
+    height:577px;
+    .container{
+        display: flex;
+        width: 83%;
+        margin: 0 auto;
+        .footer-info{
+            padding-top:144px;
+            span{
+                display:block;
+                font-size: 24px;
+                color: #ffffff
+            }
+        }
+    }
 }
