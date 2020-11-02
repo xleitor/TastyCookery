@@ -214,5 +214,19 @@ footer{
                 color: #ffffff
             }
         }
+        .footer-link{
+            padding-top:144px;
+            input{
+                padding: 24px 230px 24px 29px;
+                border-radius:10px;
+            }
+            .footer-menu-link{
+                padding-top:27px;
+                .menu-link{
+                    @include link;
+                    padding: 30px 138px 30px 136px;
+                }
+            }
+        }
     }
 }
